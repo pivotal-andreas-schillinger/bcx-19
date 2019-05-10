@@ -15,3 +15,7 @@
 #6 Login to Bosch IoT Cloud (BIC) via cf cli
 #7 Push demo application to BIC
 #8 Click on App Route to see Things Json in Browser
+
+
+# Docu Things Java SDK:
+    https://things.eu-1.bosch-iot-suite.com/dokuwiki/doku.php?id=dev_guide:java_api:start
