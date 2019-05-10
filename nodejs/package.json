@@ -1,0 +1,11 @@
+{
+    "name": "hello-bic-bcx-2019",
+    "description": "Simple Hello World Node.js sample for BIC at BCX 2019",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Pivotal",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
