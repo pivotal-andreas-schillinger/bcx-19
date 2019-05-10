@@ -32,28 +32,30 @@ public class DemoApplication {
 	@GetMapping
 	public String greting() throws URISyntaxException, IOException, InterruptedException, ExecutionException {
 		ThingsClient thingsClient = initializeThingsClient();
-		return thingsClient.twin().forId(thingid).retrieve().get().toJsonString().toString();
+		return thingsClient.twin().forId(thingid).retrieve().get().toJsonString();
 	}
 
 	private static ThingsClient initializeThingsClient() {
         final CredentialsAuthenticationConfiguration credentialsAuthenticationConfiguration =
-                CredentialsAuthenticationConfiguration
-                        .newBuilder()
-                        .username(username)
-                        .password(password)
-                        .build();
+			CredentialsAuthenticationConfiguration
+				.newBuilder()
+				.username(username)
+				.password(password)
+				.build();
  
-        final ThingsWsMessagingProviderConfiguration thingsWsMessagingProviderConfiguration = MessagingProviders
+		final ThingsWsMessagingProviderConfiguration thingsWsMessagingProviderConfiguration = 
+			MessagingProviders
                 .thingsWebsocketProviderBuilder()
 				.authenticationConfiguration(credentialsAuthenticationConfiguration)
 				.endpoint("wss://things.eu-1.bosch-iot-suite.com")
                 .build();
  
         final CommonConfiguration twinConfiguration =
-                ThingsClientFactory.configurationBuilder()
-                        .apiToken(apitoken)
-                        .providerConfiguration(thingsWsMessagingProviderConfiguration)
-                        .build();
+			ThingsClientFactory
+				.configurationBuilder()
+				.apiToken(apitoken)
+				.providerConfiguration(thingsWsMessagingProviderConfiguration)
+				.build();
  
         return ThingsClientFactory.newInstance(twinConfiguration);
     }
