@@ -1,28 +1,31 @@
 ---
 title: 'Examples'
 date: 2018-11-28T15:14:39+10:00
-weight: 2
+weight: 3
+draft: false
 ---
 
 ## Github repository
-[[https://github.com/pivotal-andreas-schillinger/bcx-19.git | BCX19]]
+[BCX'19](https://github.com/pivotal-andreas-schillinger/bcx-19.git) - all examples in one repo!
 
-# Go example
+`git clone https://github.com/pivotal-andreas-schillinger/bcx-19.git`
+
+## Golang
 
 https://github.com/pivotal-andreas-schillinger/bcx-19/tree/master/go
 
 
-# Java example
+## Java 
 
 https://github.com/pivotal-andreas-schillinger/bcx-19/tree/master/iot-demo
 
 
-# NodeJS example
+## NodeJS
 
 https://github.com/pivotal-andreas-schillinger/bcx-19/tree/master/nodejs
 
 
-# Python example
+## Python
 
 https://github.com/pivotal-andreas-schillinger/bcx-19/tree/master/python
 
