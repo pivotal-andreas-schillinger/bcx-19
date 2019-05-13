@@ -7,3 +7,12 @@ weight: 1
 ## Quickstart
 
 Pivotal and BIC @ BCX'19 present
+
+# Cloud Foundry CLI
+
+Download the latest release from: 
+[[https://github.com/cloudfoundry/cli/releases | cf-cli]]
+
+# Login to Bosch IoT Cloud
+
+
