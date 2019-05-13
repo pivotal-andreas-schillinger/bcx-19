@@ -6,4 +6,4 @@ weight: 1
 
 ## Quickstart
 
-This is a BLARP
+Pivotal and BIC @ BCX'19 present

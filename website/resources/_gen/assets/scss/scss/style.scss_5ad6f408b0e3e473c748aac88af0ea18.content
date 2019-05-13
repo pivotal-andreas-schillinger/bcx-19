@@ -5730,7 +5730,7 @@ p {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 70px; } }
+      width: 140px; } }
   .logo img {
     width: 100%;
     height: auto; }
@@ -5741,7 +5741,7 @@ p {
 
 .logo-mobile {
   display: block;
-  width: 54px; }
+  width: 140px; }
   @media (min-width: 576px) {
     .logo-mobile {
       display: none; } }

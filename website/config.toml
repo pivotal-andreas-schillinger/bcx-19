@@ -23,19 +23,19 @@ pygmentsUseClasses = true
   homepage_button_link = '/docs'
   homepage_button_text = 'documentation'
   homepage_intro = 'Pivotal presents BIC at BCX`19 - read the docs and ask the team'
-  homepage_image = '/images/terminal.gif'
+  homepage_image = '/images/pivotal.png'
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_description = "Pivotal presents BIC at BCX`19 - read the docs and ask the team"
+    meta_og_title = "Pivotal presents BIC at BCX`19"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_url = "https://www.bic4bcx.de"
+    meta_og_image = "/images/favicon.ico"
+    meta_og_description = "Pivotal presents BIC at BCX`19 - read the docs and ask the team"
     meta_twitter_card = "summary"
     meta_twitter_site = "@cjuette"
     meta_twitter_creator = "@cjuette"
 
   [params.logo]
-      mobile = "/images/logo-mobile.svg"
-      standard  = "/images/logo.svg"
+      mobile = "/images/pivotal.png"
+      standard  = "/images/pivotal.png"
