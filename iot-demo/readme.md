@@ -13,6 +13,7 @@
 #5 Add credentials to DemoApplication.java
 
 #6 Login to Bosch IoT Cloud (BIC) via cf cli
+    cf login -a api.sys.de1.bosch-iot-cloud.com
 #7 Push demo application to BIC
 #8 Click on App Route to see Things Json in Browser
 
